@@ -1,0 +1,33 @@
+[
+    {
+        "li01": "../img/oferta01.png",
+        "li02": "../img/oferta02.png",
+        "desc": "Cartão(barbearia)",
+        "precoAn": "19,99",
+        "precoAt": "17,50 R$"
+    },
+
+    {
+        "li01": "../img/oferta03.png",
+        "li02": "../img/oferta04.png",
+        "desc": "Panfleto(pet-shop)",
+        "precoAn": "17,00",
+        "precoAt": "15,50 R$"
+    },
+
+    {
+        "li01": "../img/oferta05.png",
+        "li02": "../img/oferta06.png",
+        "desc": "Cardapío(açai)",
+        "precoAn": "15,00",
+        "precoAt": "13,70 R$"
+    },
+
+    {
+        "li01": "../img/oferta07.png",
+        "li02": "../img/oferta08.png",
+        "desc": "Logo(restaurante)",
+        "precoAn": "25,00",
+        "precoAt": "22,00 R$"
+    }
+]

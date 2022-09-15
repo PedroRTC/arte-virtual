@@ -1,0 +1,50 @@
+[
+    {
+        "img_todos":"../img/img-cartão (1).png",
+        "desc":"Cartão(barbearia)",
+        "preco":"22,00"
+    },
+
+    {
+        "img_todos":"../img/img-cartão (2).png",
+        "desc":"Cartão(barbearia)",
+        "preco":"22,00"
+    },
+    {
+        "img_todos":"../img/img-cartão (3).png",
+        "desc":"Cartão(salão)",
+        "preco":"20,00"
+    },
+     
+    {
+        "img_todos":"../img/img-cartão (4).png",
+        "desc":"Cartão(tattoo)",
+        "preco":"20,00"
+    },
+
+    {
+        "img_todos":"../img/img-cartão (5).png",
+        "desc":"Cartão(açai)",
+        "preco":"20,00"
+    },
+     
+    {
+        "img_todos":"../img/img-cartão (6).png",
+        "desc":"Cartão(fotógrafo)",
+        "preco":"20,00"
+    },
+
+    {
+        "img_todos":"../img/img-cartão (7).png",
+        "desc":"Cartão(web-design)",
+        "preco":"22,00"
+    },
+
+    {
+        "img_todos":"../img/img-cartão (8).png",
+        "desc":"Cartão(empresa)",
+        "preco":"22,00"
+    }
+   
+   
+]

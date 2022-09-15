@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#main{
+    width: 100vw;
+}
+
+#secao_principal{
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: top;
+    scroll-snap-type: x mandatory;
+}
+
+.secao{
+   margin: auto;
+   text-align: center;
+   flex:none ;
+   width: 100%;
+   height: 100%;
+   scroll-snap-align:start ;
+   margin-top: 20px;
+}
+
+#titulos{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30pt;
+    font-weight:bolder;
+    color: darkcyan;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    transition:background-color 0.5s ;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: darkturquoise;
+    border-radius: 10px;
+}
+
+
+#menu{
+   position: fixed;
+   width: 100%;
+   display:flex;
+   align-items: center;
+   justify-content: end;
+   padding: 6px 0px 10px 0px;
+   z-index: 2;
+  transition:background-color 0.3s ;
+ 
+}
+
+
+#logo_arte{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#img_virtual_menu{
+    background-image: url("../img/logo-menu.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    margin: 0px 15px;
+   
+}
+
+
+
+
+#items{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0px 50px;
+   
+}
+
+#items li{
+     margin: 0px 5px;
+}
+
+#tema{
+
+    width: 55px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.72);
+    height: 23px;
+    padding: 5px;
+    margin-left: 20px;
+    transform: scale(1.1);
+    padding: 3px;
+   
+}
+
+#b_tema{
+    color:white;
+    border-radius: 50px;
+    transition: margin 0.5s;
+    padding: 2px 3px;
+    transition: all 0.5s;
+    opacity: 0.7;
+  
+}
+
+#b_tema:hover{
+    opacity: 1;
+}
+
+#items a{
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+    padding:10px  17px 10px 17px  ;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius:20px ;
+     border-left: 1px solid transparent;
+     border-bottom: 1px solid transparent;
+     transition:border 0.5s ;
+     
+   
+    
+}
+
+#items a:hover{
+   border-color: darkturquoise;
+  
+   
+}
+
+#cabe{
+   height: 500px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-image: url("../img/img-01.png");
+   background-size: cover;
+   background-position: 50% 50%;
+  
+}
+
+#div_button_whatsapp{
+
+    padding: 10px;
+    position: fixed;
+    display: flex;
+    left: 90%;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   z-index: 1;
+  background-color:transparent;
+}
+
+#main_button_whatsapp{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/whatsapp-main.png");
+    background-size: cover;
+    border:none ;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: darkturquoise;
+    border-radius: 50%;
+    transition: all 0.5s;
+    box-shadow:0px 0px 0px 0px darkcyan;
+    animation: what 2s infinite linear;
+}
+
+#main_button_whatsapp:hover{
+    transform: scale(1.1) ;
+}
+
+@keyframes what{
+   to{ box-shadow:0px 0px 0px 10px rgba(0, 169, 169, 0.581);}
+}
+
+
+#div_fale_conosco{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height:500px ;
+    background-image:linear-gradient(0deg,black,transparent) ;
+}
+
+#div_fale_conosco img{
+   width: 250px;
+   height: 250px;
+   margin-top: 100px;
+}
+
+#div_fale_conosco a{
+    text-decoration:none ;
+    color:white ;
+    font-size:12pt ;
+    font-weight: bolder;
+     padding:15px 20px;
+     border: 2px solid darkturquoise;
+     transition: all 0.5s ;
+     font-family: sans-serif;
+    background-color:darkturquoise ;
+    color: darkslategrey;
+    cursor: pointer;
+    
+}
+
+#div_fale_conosco a:hover{
+    border:dotted 2px darkturquoise ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:transparent ;
+    color: white;
+   
+}
+
+
+.select{
+    background-color:#00C2CB;
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.596);
+    transition:  background-color 1s , border-bottom 0.5s ;
+    border-color: darkturquoise;
+   
+   
+}
+
+
+
+.div_loading{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0.808);
+    top: 0%;
+    left:0% ;
+    box-shadow: 0px 0px 0px 700px rgba(255, 255, 255, 0.808);
+    z-index: 10;
+    padding: 10px;
+    transition: background-color 0.5s, box_shadow 0.5s ;
+}
+
+.p_loading{
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+    color:darkslategrey ;
+    font-size: 12pt;
+    padding:5px 0px ;
+
+}
+
+.loading{
+ 
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 250px;
+    background-image: url("../img/logo-menu.png");
+    background-size: cover;
+    animation: load 1.2s infinite linear;
+}
+
+
+@keyframes load{
+    to{transform: rotate(360deg);}
+}
+
+
+#menu_mob{
+    display: none;
+    justify-content: end;
+    align-items: center;
+    background-color:transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    padding: 10px 15px;
+}
+
+#button_menu{
+    width: 30px;
+    height:30px;
+    transition: all 0.5s;
+}
+
+
+
+.id{
+    margin: auto;
+    color: transparent;
+}
+
+
+#rodape{
+    margin: auto;
+    margin-top: 30px;
+    text-align:center;
+    height: auto;
+    background-color: #1f1f1f;   
+   
+}
+
+#redes{
+    padding: 10px 0px;
+}
+
+#redes hr{
+    margin: auto;
+    margin-top: 5px;
+    width: 70%;
+    height: 2px;
+    border: none;
+    background-color: #333;
+}
+
+#redes img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+   transition: all 0.5s;
+}
+
+#redes img:hover{
+   transform: scale(1.1);
+}
+
+.divs_rodape{
+    text-align: left;
+    display: inline-block;
+    width:190px ;
+    margin: 10px 0px;
+}
+
+
+
+.divs_rodape h5{
+    color: #8d8c8c;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 2px ;
+    font-size: 12pt;
+    padding:3px 0px ;
+}
+
+
+.divs_rodape hr{
+    width: 40px;
+    height: 3px;
+    border:none ;
+    background-color: darkturquoise;
+    border-radius: 10px;
+}
+
+
+.divs_rodape p{
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(141, 140, 140);
+        font-size: 12pt;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+     padding:5px 0px ;  
+}
+
+.divs_rodape p:hover{
+        transform:translateX(-10px);
+        color: darkturquoise;
+    }
+
+
+.divs_rodape a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(141, 140, 140);
+    transition: all 0.3s;
+   
+}
+
+.divs_rodape a:hover{
+    color: darkturquoise;
+    text-decoration: underline;
+   
+}
+
+ #div_fale_rodape{
+     text-align:center ;
+    
+ }
+
+ #div_fale_rodape img{
+    width: 150px;
+    height: 150px;
+   
+   }
+
+ #div_fale_rodape p{
+     text-align: center;
+     
+    
+ }
+
+ 
+ #button_rodape{
+    margin: auto ;
+    border: 2px solid darkturquoise;
+    padding: 10px 15px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+  
+ }
+
+
+ #button_rodape:hover{
+     background-color:darkturquoise;
+     color: black;
+    
+ }
+
+ #final_rodape{
+    padding: 10px 0px;
+ }
+
+ #final_rodape hr{
+     margin: auto;
+     width: 90%;
+     height: 2px;
+     background-color: #333;
+    border:none;
+ }
+
+ #final_rodape p{
+     padding: 3px 0px;
+     color: rgb(104, 104, 104);
+     font-family: 'Rajdhani', sans-serif;
+     font-size: 10pt;
+     letter-spacing: 0.5px;
+ }
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    #cabe{
+        height: 550px;
+    }
+       
+    #menu_mob{
+        display: flex;
+        gap: 0px;
+    }
+
+    #menu{
+        width: 0%;
+        height: 100%;
+        z-index: 2;
+        background-color: black;
+        transition: width 0.3s;
+        overflow: auto;
+      
+    }
+    
+
+    #logo_div_menu{
+       width: 100%;
+    }
+
+
+    #img_virtual_menu{
+        width: 35px;
+        height: 35px;
+    }
+
+
+    #logo_arte{
+        display:none ;
+    }
+
+
+    #div_fale_conosco{
+        top: 0px;
+        left: 0px;
+        height:100% ;
+        text-align: center;
+    }
+
+   
+
+    #div_fale_conosco a{
+        padding:10px ;
+    }
+    
+    #items{
+        width:100%;
+        margin: auto;
+        display: none;
+      
+    
+       
+    }
+
+   
+
+    #items li{
+        margin: 40px 0px;
+        text-align: center;
+        
+    }
+    #tema{
+        margin: auto;
+        background-color: rgb(9, 9, 9);
+        box-shadow: 0px 0px 5px #333;
+    }
+    
+    
+
+    #items a{
+        padding: 10px 20px;
+        font-size: 16pt;
+        letter-spacing: 3px;
+    }
+
+
+    #img-cabe{
+        height: 300px;
+    }
+    #rodape{
+      text-align: center;
+    }
+    
+    .divs_rodape{
+        width: 140px;
+        
+    }
+
+    #div_button_whatsapp{
+        left:78%;
+        margin-top:-100px;
+        z-index: 2;
+    }
+    
+
+    #main_button_whatsapp{
+        width: 45px;
+        height: 45px;
+    }
+  
+
+}

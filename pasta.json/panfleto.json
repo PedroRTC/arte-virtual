@@ -1,0 +1,48 @@
+[
+    {
+        "img_todos":"../img/img-panfleto (1).png",
+        "desc":"Panfleto(pet-shop)",
+        "preco":"15,50"
+    },
+
+    {
+        "img_todos":"../img/img-panfleto (2).png",
+        "desc":"Panfleto(internet)",
+        "preco":"17,00"
+    },
+    {
+        "img_todos":"../img/img-panfleto (3).png",
+        "desc":"Panfleto(aguá)",
+        "preco":"17,00"
+    },
+
+    {
+        "img_todos":"../img/img-panfleto (4).png",
+        "desc":"Panfleto(pizzaria)",
+        "preco":"17,00"
+    },
+
+    {
+        "img_todos":"../img/img-panfleto (5).png",
+        "desc":"Panfleto(consecionaria)",
+        "preco":"17,00"
+    },
+    {
+        "img_todos":"../img/img-panfleto (6).png",
+        "desc":"Panfleto(estofados)",
+        "preco":"17,00"
+    },
+    {
+        "img_todos":"../img/img-panfleto (7).png",
+        "desc":"Panfleto(estética)",
+        "preco":"17,00"
+    },
+    {
+        "img_todos":"../img/img-panfleto (8).png",
+        "desc":"Panfleto(construtora)",
+        "preco":"17,00"
+    }
+     
+   
+   
+]

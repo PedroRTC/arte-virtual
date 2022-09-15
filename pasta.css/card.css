@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+#container_logo{
+    display: inline-block;
+    padding: 20px;
+}
+
+.card_todos{
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height:350px ;
+    border: 1px solid gainsboro;
+    box-shadow: 0px 5px 20px  rgba(85, 84, 84, 0.39);
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.img_todos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    background-size:cover;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 245px;
+    transition: all 0.5s;
+}
+
+.img_todos:hover{
+    background-position: 0% 0%;
+}
+
+.img_todos span{
+    background-color: transparent;
+    transform: scale(0);
+    padding:2px 3.5px;
+    transition: all 0.5s;
+   
+}
+
+.img_todos i{
+    color: rgba(0, 206, 209, 0.747);
+}
+
+
+.desc_todos{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: darkcyan;
+    margin: 5px 0px;
+}
+
+    .preco_todos{
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 40%;
+    color: white;
+    background-color: darkcyan;
+    box-shadow: 0px 5px 5px rgba(51, 51, 51, 0.487);
+    text-decoration: underline;
+    padding: 3px 0px;
+    }
+
+
+    .secao_icone{
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        padding: 7px 5px;
+        width: 60%;
+        justify-content: center;
+        gap: 40px;
+        transform: scale(1.4);
+    }
+
+    .secao_icone i{
+       color: rgb(175, 174, 174);
+       cursor: pointer;
+       transition: all 0.3s;
+    }
+
+    .secao_icone i:hover{
+        color: darkcyan;
+    }
+    
+
+    .main_zoom{
+        margin: auto;
+        text-align: center;
+        width: 0%;
+        height: 0%;
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        background-color:white;
+        transition: all 0.5s;
+        overflow: auto;
+       
+       
+        
+    
+    }
+
+    .container_zoom{
+        margin: auto;
+       display: flex;
+       align-items:top;
+       justify-content: center;
+       width: 100%;
+       height: 70%;
+
+    }
+
+    .button_fecha_zoom{
+        width: 40px;
+        height: 40px;
+        float: right;
+       margin: 5px  10px;
+       border: none;
+       border-radius: 50%;
+       cursor: pointer;
+       background-image: url("../img/botao-fechar.png");
+       background-size: cover;
+       background-color: transparent;
+       opacity: 0.5;
+    }
+
+    .obs{
+        margin: auto;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        text-align: justify;
+        width: 47%;
+        color: gray;
+        font-size: 11pt;
+    }
+
+    .obs strong{
+        color: darkcyan;
+        font-weight: 900;
+    }
+
+    .obs span{
+        background-color: darkcyan;
+        color: white;
+        padding: 0px  3px;
+        
+    }
+    @media screen and (max-width: 600px){
+      
+
+        .container_zoom{
+           height:55% ;
+        }
+
+        .obs{
+            width:85% ;
+        }
+    }
+
+    
+
+       

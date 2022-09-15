@@ -1,0 +1,47 @@
+[
+    {
+        "img_todos":"../img/img-logo (1).png",
+        "desc":"Logo(restaurante)",
+        "preco":"22,00"
+    },
+
+    {
+        "img_todos":"../img/img-logo (2).png",
+        "desc":"Logo(floricultura)",
+        "preco":"25,00"
+    },
+    {
+        "img_todos":"../img/img-logo (3).png",
+        "desc":"Logo(barbearia)",
+        "preco":"25,00"
+    },
+     
+    {
+        "img_todos":"../img/img-logo (4).png",
+        "desc":"Logo(salão)",
+        "preco":"25,00"
+    },
+    {
+        "img_todos":"../img/img-logo (5).png",
+        "desc":"Logo(barbearia)",
+        "preco":"25,00"
+    },
+
+    {
+        "img_todos":"../img/img-logo (6).png",
+        "desc":"Logo(salão)",
+        "preco":"25,00"
+    },
+     
+    {
+        "img_todos":"../img/img-logo (7).png",
+        "desc":"Logo(construtora)",
+        "preco":"25,00"
+    },
+
+    {
+        "img_todos":"../img/img-logo (8).png",
+        "desc":"Logo(cafeteria)",
+        "preco":"25,00"
+    }
+]

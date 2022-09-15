@@ -1,0 +1,48 @@
+[
+    {
+        "img_todos":"../img/img-cardapio (1).png",
+        "desc":"Cardapío(açai)",
+        "preco":"13,00"
+    },
+
+    {
+        "img_todos":"../img/img-cardapio (2).png",
+        "desc":"Cardapío(pizzaria)",
+        "preco":"20,00"
+    },
+    {
+        "img_todos":"../img/img-cardapio (3).png",
+        "desc":"Cardapío(pão)",
+        "preco":"22,00"
+    },
+    {
+        "img_todos":"../img/img-cardapio (4).png",
+        "desc":"Cardapío(pizzaria)",
+        "preco":"20,00"
+    },
+    {
+        "img_todos":"../img/img-cardapio (5).png",
+        "desc":"Cardapío(cafeteria)",
+        "preco":"22,00"
+    },
+
+    {
+        "img_todos":"../img/img-cardapio (6).png",
+        "desc":"Cardapío(marmitaria)",
+        "preco":"20,00"
+    },
+    {
+        "img_todos":"../img/img-cardapio (7).png",
+        "desc":"Cardapío(sorveteria)",
+        "preco":"22,00"
+    },
+
+    {
+        "img_todos":"../img/img-cardapio (8).png",
+        "desc":"Cardapío(hamburgueria)",
+        "preco":"20,00"
+    }
+     
+    
+   
+]

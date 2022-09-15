@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#main_comentario{
+    margin: auto;
+   text-align: center;
+   margin: 50px 0px;
+}
+
+
+
+#container_comentario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filhos_container_comentarios{
+    width: 100vw;
+    height: 400px;
+    
+}
+
+
+#div_comentarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+   
+    
+  
+  
+}
+
+#img_comentario{
+   text-align: center;
+   margin-bottom: 30px;
+   height: auto;
+  
+}
+
+
+#img_comentario img{
+    width: 70%;
+    height:100% ;
+    
+}
+
+#img_comentario h3{
+    margin: auto;
+    color: darkcyan;
+    background-color: rgb(209, 254, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    width: 90%;
+    letter-spacing: 1px ;
+    font-size: 20pt;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+#div_comentarios button{
+    width: 30px;
+    height: 30px;
+    border:none ;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+#div_comentarios button:hover{
+    opacity: 1;
+}
+
+.button_comentario_esquerda{
+    background-image: url("../img/seta-esquerda.png");
+    background-size: cover;
+}
+
+.button_comentario_direita{
+    background-image: url("../img/seta-direita.png");
+    background-size: cover;
+}
+
+
+#items_comentario{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    background-color: transparent;
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+    
+  
+   
+}
+
+#items_comentario::-webkit-scrollbar{
+    width: 5px;
+    background-color: transparent;
+}
+
+#comentario{
+    width:99% ;
+    height: 99%;
+    border: 1px solid darkcyan;
+    box-shadow: 0px 0px 5px  rgba(54, 54, 54, 0.315);
+    border-radius: 20px;
+    flex: none;
+    scroll-snap-align: start;
+    padding: 20px 40px;
+    cursor: pointer;
+    
+   
+}
+
+#comentario img{
+    width: 50px;
+    height: 50px;
+}
+
+#comentario hr{
+    margin: auto;
+    width: 100px;
+    height:3px ;
+    border-radius: 30px;
+    border:none ;
+    background-color: darkturquoise;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.nome_usuario{
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 14pt;
+   font-weight:bolder;
+   color: darkcyan;
+  
+}
+
+.p_comentario{
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+   font-size: 14pt;
+   font-weight:bolder;
+   color: darkcyan;
+   text-align: justify;
+   padding-bottom:10px ;
+   
+   
+}
+
+#estrelas_comentario{
+    transform: scale(1.1);
+}
+
+#estrelas_comentario i{
+    margin: 0px 0.5px;
+    color: darkturquoise;
+    opacity: 0.5;
+}
+
+#form_comentario{
+    margin: auto;
+    text-align: center;
+    background-color: darkcyan;
+    padding:  30px 5px;
+    width:70%;
+}
+
+#form_comentario button{
+    padding:8px 20px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: white;
+    color: darkslategrey;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+  
+}
+
+#form_comentario button:hover{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: transparent;
+    border:dotted 2px white ;
+    color:white;
+}
+
+#input_comentario{
+    padding: 10px;
+    outline:none ;
+    border: none;
+    width:60% ;
+    background-color:rgb(208, 255, 255);
+    color: darkslategrey;
+}
+
+
+#load_comentario{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+}  
+
+#load_comentario i{
+  color:gray;
+}
+
+#load_comentario p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: gray;
+    font-size: 10pt;
+    
+}
+
+@media screen and (max-width: 1230px) {
+    
+#container_comentario{
+    display:block;
+}
+
+#form_comentario{
+    width: 70%;
+}
+
+#img_comentario img{
+    width: 50%;
+    height:70% ;
+    
+}
+
+
+
+}
+
+@media screen and (max-width: 650px){
+
+    #div_comentarios{
+        padding: 10px;
+    }
+
+    #items_comentario{
+        width: 100%;
+    }
+
+    #form_comentario{
+        width: 90%;
+    }
+
+    #img_comentario img{
+        width: 90%;
+        height:120% ;
+        
+    }
+
+    #img_comentario h3{
+        font-size: 14pt;
+    }
+
+    #load_comentario{
+        height: 15%;
+    }
+
+}
+
